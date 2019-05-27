@@ -44,3 +44,10 @@ else return false;
 }
 
 console.log(hasProperty("class"));
+
+
+//name value pair
+
+var output =Object.entries(student).map(([key,value]) => ({key,value}));
+
+console.log(output);
